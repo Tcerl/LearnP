@@ -15,6 +15,6 @@ unique_numbers = sorted(frequency.keys())
 
 result = []
 for num in unique_numbers:
-    result.append(f"{num} - frequency[num]")
+    result.append(f"{num} - {frequency[num]}")
 
 print("".join(result) + "; ")
